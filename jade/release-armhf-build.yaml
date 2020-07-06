@@ -109,8 +109,8 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repositories.ros.org/ubuntu/building
-target_repository: http://repositories.ros.org/ubuntu/building
+  - http://3.82.199.13/ubuntu/building
+target_repository: http://3.82.199.13/ubuntu/building
 targets:
   ubuntu:
     trusty:

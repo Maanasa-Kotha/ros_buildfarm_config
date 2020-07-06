@@ -12,7 +12,7 @@ notifications:
   maintainers: true
 repositories:
   urls:
-  - http://repositories.ros.org/ubuntu/testing
+  - http://3.82.199.13/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
