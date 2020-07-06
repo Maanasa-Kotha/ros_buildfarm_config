@@ -10,6 +10,10 @@ notifications:
   emails:
   - ros-buildfarm-testfarm@googlegroups.com
   maintainers: false
+package_whitelist:
+  - roscpp
+  - rclcpp
+skip_ignored_packages: true
 package_blacklist:
   - ardrone_autonomy
   - darknet
