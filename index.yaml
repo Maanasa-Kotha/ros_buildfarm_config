@@ -73,7 +73,7 @@ notification_emails:
 - tfoote+buildfarm@osrfoundation.org
 prerequisites:
   debian_repositories:
-  - http://3.82.199.13/ubuntu/building
+  - http://44.228.80.99/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -110,8 +110,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
 status_page_repositories:
   default:
-  - http://3.82.199.13/ubuntu/building
-  - http://3.82.199.13/ubuntu/testing
-  - http://3.82.199.13/ubuntu/main
+  - http://44.228.80.99/ubuntu/building
+  - http://44.228.80.99/ubuntu/testing
+  - http://44.228.80.99/ubuntu/main
 type: buildfarm
 version: 1

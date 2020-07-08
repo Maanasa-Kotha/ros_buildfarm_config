@@ -48,8 +48,8 @@ repositories:
     =4Ofr
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://3.82.199.13/ubuntu/building
-target_repository: http://3.82.199.13/ubuntu/building
+  - http://44.228.80.99/ubuntu/building
+target_repository: http://44.228.80.99/ubuntu/building
 targets:
   debian:
     stretch:

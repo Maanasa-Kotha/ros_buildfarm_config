@@ -52,9 +52,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repo.ros2.org/ubuntu/building
-  - http://3.82.199.13/ubuntu/testing
-target_repository: http://repo.ros2.org/ubuntu/building
+  - http://44.228.80.99/ubuntu/testing
+target_repository: http://44.228.80.99/ubuntu/building
 targets:
   ubuntu:
     focal:

@@ -48,7 +48,7 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://3.82.199.13/ubuntu/testing
+  - http://44.228.80.99/ubuntu/testing
 targets:
   debian:
     buster:

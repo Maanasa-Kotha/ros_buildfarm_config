@@ -96,8 +96,8 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repo.ros2.org/ubuntu/testing
-  - http://3.82.199.13/ubuntu/testing
+  - http://44.228.80.99/ubuntu/testing
+  - http://44.228.80.99/ubuntu/testing
 targets:
   ubuntu:
     focal:
