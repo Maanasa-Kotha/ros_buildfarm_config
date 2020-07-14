@@ -19,9 +19,6 @@ package_blacklist:
   - slam_toolbox_rviz
 sync:
   package_count: 376
-- slam_toolbox
-- slam_toolbox_msgs
-- slam_toolbox_rviz
 package_whitelist:
 - geneus
 - rosgraph_msgs
