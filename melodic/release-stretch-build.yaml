@@ -17,9 +17,6 @@ package_blacklist:
   - rospilot
 sync:
   package_count: 1000
-- fetch_drivers
-- fetch_tools
-- rospilot
 package_whitelist:
 - rospack
 - rosbuild
