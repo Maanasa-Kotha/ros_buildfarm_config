@@ -16,8 +16,6 @@ notifications:
 package_blacklist:
   - fetch_drivers
   - fetch_tools
-- fetch_drivers
-- fetch_tools
 package_whitelist:
 - rospack
 - rosbuild
