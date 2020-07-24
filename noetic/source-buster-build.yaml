@@ -13,70 +13,6 @@ notifications:
   - ros-buildfarm-noetic@googlegroups.com
   - sloretz+buildfarm@openrobotics.org
   maintainers: true
-package_whitelist:
-- geneus
-- rosgraph_msgs
-- python3-catkin-pkg
-- python-mock
-- python-rospkg
-- python3-rosdep-modules
-- python3-yaml
-- roslang
-- python-setuptools
-- python-rosdep-modules
-- python3-nose
-- python3-catkin-pkg-modules
-- rostime
-- roscpp_traits
-- ros_environment
-- rosmake
-- apr
-- python3-coverage
-- libconsole-bridge-dev
-- message_generation
-- genlisp
-- python3-empy
-- python3-mock
-- roslib
-- python-nose
-- python-yaml
-- gennodejs
-- python-catkin-pkg
-- std_msgs
-- rosbuild
-- python3-rospkg
-- cpp_common
-- genpy
-- python3-setuptools
-- libboost-chrono-dev
-- gtest
-- roscpp_serialization
-- xmlrpcpp
-- libboost-regex-dev
-- python-argparse
-- libboost-program-options-dev
-- python3
-- rosconsole
-- python-catkin-pkg-modules
-- gencpp
-- python-empy
-- libboost-filesystem-dev
-- google-mock
-- rospack
-- message_runtime
-- cmake_modules
-- python-coverage
-- rosunit
-- libboost-system-dev
-- cmake
-- libboost-thread-dev
-- tinyxml2
-- pkg-config
-- catkin
-- genmsg
-- python
-- libboost-date-time-dev
-- log4cxx
 repositories:
   keys:
   - |
@@ -113,6 +49,25 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
   - http://44.228.80.99/ubuntu/testing
+repository_whitelist:
+- ros_comm
+- ros_comm_msgs
+- genpy
+- std_msgs
+- ros
+- gencpp
+- cmake_modules
+- geneus
+- genlisp
+- rospack
+- ros_environment
+- rosconsole
+- genmsg
+- catkin
+- gennodejs
+- message_runtime
+- message_generation
+- roscpp_core
 targets:
   debian:
     buster:
