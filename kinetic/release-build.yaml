@@ -13,6 +13,55 @@ notifications:
   maintainers: true
 sync:
   package_count: 2300
+package_whitelist:
+- apr
+- pkg-config
+- message_runtime
+- catkin
+- rosconsole
+- python-rosdep
+- ros_environment
+- python3-empy
+- genpy
+- boost
+- xmlrpcpp
+- roslib
+- rosgraph_msgs
+- cmake
+- cpp_common
+- rosunit
+- gtest
+- python-rospkg
+- python-empy
+- genlisp
+- python
+- python-mock
+- geneus
+- python3-nose
+- message_generation
+- rospack
+- gencpp
+- python-yaml
+- roscpp_serialization
+- python3-mock
+- genmsg
+- python-argparse
+- python-nose
+- std_msgs
+- roslang
+- python-coverage
+- log4cxx
+- rosbuild
+- tinyxml
+- cmake_modules
+- google-mock
+- python3-catkin-pkg
+- rostime
+- roscpp_traits
+- gennodejs
+- python-catkin-pkg
+- rosmake
+- libconsole-bridge-dev
 repositories:
   keys:
   - |
