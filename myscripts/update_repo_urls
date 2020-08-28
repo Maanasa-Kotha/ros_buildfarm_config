@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#go through files and update ros repo url
+# USAGE: myscripts/update_repo_urls OLD_REPO_URL NEW_REPO_URL
+
+OLD_REPO_URL=$1 
+NEW_REPO_URL=$2 
+
+for file in $( git grep -F -l $OLD_REPO_URL ); do
+	#this could match more than a literal string but there shouldn't be any
+	sed -i .bak "s|$OLD_REPO_URL|$NEW_REPO_URL|g" $file
+done 
+  
